@@ -108,6 +108,13 @@ from
     max_price_mapping.price = products_with_manu_name.price); 
 
 
+----or-----------
+select max(a.price),a.name,b.name from products a join manufacturers b on a.manufacturer=b.code group by b.Name;
+
+
+
+
+
 
 
 -- 1.17 Add a new product: Loudspeakers, $70, manufacturer 2.
