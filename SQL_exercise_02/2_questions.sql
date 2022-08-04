@@ -4,7 +4,7 @@
 -- 2.3 Select all the data of employees whose last name is "Smith".
 -- 2.4 Select all the data of employees whose last name is "Smith" or "Doe".
 -- 2.5 Select all the data of employees that work in department 14.
--- 2.6 Select all the data of employees that work in department 37 or department 77.
+Select all the data of employees that work in department 37 or department 77.
 -- 2.7 Select all the data of employees whose last name begins with an "S".
 -- 2.8 Select the sum of all the departments' budgets.
 -- 2.9 Select the number of employees in each department (you only need to show the department code and the number of employees).
