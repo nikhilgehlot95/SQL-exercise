@@ -11,7 +11,7 @@ Select the name and price in cents represented as prices (i.e., the price must b
 -- 1.10 Select all the data from the products, including all the data for each product's manufacturer.
 -- 1.11 Select the product name, price, and manufacturer name of all the products.
 -- 1.12 Select the average price of each manufacturer's products, showing only the manufacturer's code.
--- 1.13 Select the average price of each manufacturer's products, showing the manufacturer's name.
+Select the average price of each manufacturer's products, showing the manufacturer's name,have an average price larger than or equal to $150.
 -- 1.14 Select the names of manufacturer whose products have an average price larger than or equal to $150.
 -- 1.15 Select the name and price of the cheapest product.
 -- 1.16 Select the name of each manufacturer along with the name and price of its most expensive product.
