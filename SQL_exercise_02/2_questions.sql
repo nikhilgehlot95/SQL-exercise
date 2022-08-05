@@ -10,7 +10,7 @@ Select all the data of employees that work in department 37 or department 77.
 -- 2.9 Select the number of employees in each department (you only need to show the department code and the number of employees).
 -- 2.10 Select all the data of employees, including each employee's department's data.
 -- 2.11 Select the name and last name of each employee, along with the name and budget of the employee's department.
--- 2.12 Select the name and last name of employees working for departments with a budget greater than $60,000.
+Select the name and last name of employees working for departments with a budget greater than $60,000.
 -- 2.13 Select the departments with a budget larger than the average budget of all the departments.
 -- 2.14 Select the names of departments with more than two employees.
 -- 2.15 Very Important - Select the name and last name of employees working for departments with second lowest budget.
