@@ -46,11 +46,13 @@ INNER JOIN Boxes ON Warehouses.Code = Boxes.Warehouse;
 
 --3.8
 -- Select the warehouse codes, along with the number of boxes in each warehouse. 
--- Optionally, take into account that some warehouses are empty (i.e., the box count should show up as zero, instead of omitting the warehouse from the result).
+
 select Warehouse, count(*) 
 from boxes 
 group by warehouse;
 
+-- Optionally, take into account that some warehouses are empty (i.e., the box count should show up as zero, instead of omitting the warehouse from the result).
+select count(contents),b.code from boxes a right join warehouses b on a.warehouse=b.code group by b.code;
 
 --3.9
 -- Select the codes of all warehouses that are saturated (a warehouse is saturated if the number of boxes in it is larger than the warehouse's capacity).
